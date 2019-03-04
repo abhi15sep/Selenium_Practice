@@ -18,9 +18,9 @@ public class Login {
 		// Find elements: Locate elements, determine the action, pass any parameters
 		
 		//3. Enter email address.
-		driver.findElement(By.id("MainContent_txtUserName")).sendKeys("raviraj@yopmail.com");
+		driver.findElement(By.id("MainContent_txtUserName")).sendKeys("ravi@yopmail.com");
 		//4. Enter password
-		driver.findElement(By.id("MainContent_txtPassword")).sendKeys("thbs123!");
+		driver.findElement(By.id("MainContent_txtPassword")).sendKeys("password");
 		//5 Click Login
 		driver.findElement(By.id("MainContent_btnLogin")).click();
 		//6 Get confirmation
