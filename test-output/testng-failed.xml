@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SDET University test suites]">
+  <test name="Smoke test: Home Page">
+    <classes>
+      <class name="smoketests.ATagsTest"/>
+    </classes>
+  </test> <!-- Smoke test: Home Page -->
+  <test name="Smoke test: Login Page">
+    <classes>
+      <class name="smoketests.LoginPresentTestNG"/>
+    </classes>
+  </test> <!-- Smoke test: Login Page -->
+</suite> <!-- Failed suite [SDET University test suites] -->
