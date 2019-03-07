@@ -55,14 +55,11 @@ public class NewAccount {
 		
 		//Check box
 		if (weeklyEmail) {
-			if (!weeklyCheckbox.isSelected()) {
-				weeklyCheckbox.click();
-			}
+			if (!weeklyCheckbox.isSelected()) { weeklyCheckbox.click();}
 		} else {
-			if (weeklyCheckbox.isSelected()) {
-				weeklyCheckbox.click();
-			}
+			if (weeklyCheckbox.isSelected()) {weeklyCheckbox.click();}
 		}
+		
 		driver.findElement(By.id("MainContent_checkUpdates")).click();
 		driver.findElement(By.id("MainContent_btnSubmit")).click();
 
